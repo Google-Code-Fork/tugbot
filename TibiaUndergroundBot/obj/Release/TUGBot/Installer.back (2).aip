@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="7.1.3" version="7.6" Modules="enterprise" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:3.5" ValueLocId="-"/>
+    <ROW Property="AI_MINRAM" MultiBuildValue="DefaultBuild:32" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="2" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOMODIFY" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="BannerBitmap" MultiBuildValue="DefaultBuild:banner_image.jpg#Build:default_banner.bmp" Type="1"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="DialogBitmap" MultiBuildValue="DefaultBuild:dialog_image.jpg#Build:default_dialog.bmp" Type="1"/>
+    <ROW Property="Manufacturer" Value="TUGBot" ValueLocId="*"/>
+    <ROW Property="ProductCode" Value="1033:{0CB6E11A-82AB-4FA8-87C6-FE29FF009D9E} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="TUGBot" ValueLocId="*"/>
+    <ROW Property="ProductVersion" Value="2.7.4"/>
+    <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="TOSRADIOBUTTONGROUP_1_PROP" Value="RadioButton_2" Type="4"/>
+    <ROW Property="UpgradeCode" Value="{1292B142-6EC8-4D08-A7A1-AE2067B7B10C}"/>
+    <ROW Property="WIMinVersion" MultiBuildValue="DefaultBuild:3.0" ValueLocId="-"/>
+    <ROW Property="WindowsFamily9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64" MultiBuildValue="DefaultBuild:Windows 7 x64" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Data_DIR" Directory_Parent="APPDIR" DefaultDir="Data"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="Deskto~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Icons_DIR" Directory_Parent="Quickload_DIR" DefaultDir="Icons"/>
+    <ROW Directory="Profiles_DIR" Directory_Parent="APPDIR" DefaultDir="Profiles"/>
+    <ROW Directory="Quickload_DIR" Directory_Parent="APPDIR" DefaultDir="Quickl~1|Quickload"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="Skins_DIR" Directory_Parent="APPDIR" DefaultDir="Skins"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Teams_DIR" Directory_Parent="Quickload_DIR" DefaultDir="Teams"/>
+    <ROW Directory="Waypoints_DIR" Directory_Parent="Quickload_DIR" DefaultDir="Waypoi~1|Waypoints"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AddWaypoints.TBIC" ComponentId="{FD13C5E5-CC6B-438B-BF9D-B3E1A10C4F38}" Directory_="Icons_DIR" Attributes="0" KeyPath="AddWaypoints.TBIC" Type="0"/>
+    <ROW Component="Config.ini" ComponentId="{7C8769F0-4F71-41C6-9B5A-CF5FE606590C}" Directory_="APPDIR" Attributes="16" KeyPath="Config.ini" Type="0"/>
+    <ROW Component="DarkSkin.Tsf" ComponentId="{A7BB135E-1E49-49EA-A87C-FA4533EB4AEE}" Directory_="Skins_DIR" Attributes="0" KeyPath="DarkSkin.Tsf" Type="0"/>
+    <ROW Component="Default.ini" ComponentId="{4C508141-B49D-4074-B9AC-6489ED7F9F66}" Directory_="Profiles_DIR" Attributes="0" KeyPath="Default.ini" Type="0"/>
+    <ROW Component="LowLevelHooksTimeout" ComponentId="{8AE3B3DA-698D-4198-B52B-964D7A47833E}" Directory_="APPDIR" Attributes="4" KeyPath="LowLevelHooksTimeout"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{6F6C4EAA-8163-40D6-AD9C-A273C5C1B0FB}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SciLexer.dll" ComponentId="{67BF40B2-4AD1-42FC-A3EA-BE7B5085D1D5}" Directory_="APPDIR" Attributes="0" KeyPath="SciLexer.dll"/>
+    <ROW Component="Shortcuts.XML" ComponentId="{8571E87B-DF4F-4297-8370-01C24D4DEFC1}" Directory_="Data_DIR" Attributes="16" KeyPath="Shortcuts.XML" Type="0"/>
+    <ROW Component="TUGBot.exe" ComponentId="{65A0CE33-9A3C-4223-B99D-96BEA9D441B5}" Directory_="APPDIR" Attributes="0" KeyPath="TUGBot.exe"/>
+    <ROW Component="TUGHook.dll" ComponentId="{C80F1C33-C0DB-4826-84F1-8582DC61E46C}" Directory_="APPDIR" Attributes="0" KeyPath="TUGHook.dll"/>
+    <ROW Component="Teams" ComponentId="{EA3E07AF-8DF5-46AA-BD97-C2BDFC856B0D}" Directory_="Teams_DIR" Attributes="128"/>
+    <ROW Component="Waypoints" ComponentId="{FD34296E-36AD-4C95-8998-E21E81CC035F}" Directory_="Waypoints_DIR" Attributes="128"/>
+    <ROW Component="lua51.dll" ComponentId="{EE8CA018-3765-44E0-840C-E46E3F10E7B0}" Directory_="APPDIR" Attributes="0" KeyPath="lua51.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Attributes="0" Components="Config.ini Shortcuts.XML lua51.dll Default.ini SciLexer.dll DarkSkin.Tsf TUGBot.exe TUGHook.dll SHORTCUTDIR Teams AddWaypoints.TBIC Waypoints LowLevelHooksTimeout"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AddWaypoints.TBIC" Component_="AddWaypoints.TBIC" FileName="AddWay~1.TBI|AddWaypoints.TBIC" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\Quickload\Icons\AddWaypoints.TBIC" SelfReg="false" Sequence="9"/>
+    <ROW File="Config.ini" Component_="Config.ini" FileName="Config.ini" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\Config.ini" SelfReg="false" Sequence="1"/>
+    <ROW File="DarkSkin.Tsf" Component_="DarkSkin.Tsf" FileName="DarkSkin.Tsf" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\Skins\DarkSkin.Tsf" SelfReg="false" Sequence="6"/>
+    <ROW File="Default.ini" Component_="Default.ini" FileName="Default.ini" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\Profiles\Default.ini" SelfReg="false" Sequence="4"/>
+    <ROW File="SciLexer.dll" Component_="SciLexer.dll" FileName="SciLexer.dll" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\SciLexer.dll" SelfReg="false" Sequence="5"/>
+    <ROW File="Shortcuts.XML" Component_="Shortcuts.XML" FileName="Shortc~1.XML|Shortcuts.XML" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\Data\Shortcuts.XML" SelfReg="false" Sequence="2"/>
+    <ROW File="TUGBot.exe" Component_="TUGBot.exe" FileName="TUGBot.exe" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\TUGBot.exe" SelfReg="false" Sequence="7"/>
+    <ROW File="TUGHook.dll" Component_="TUGHook.dll" FileName="TUGHook.dll" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\TUGHook.dll" SelfReg="false" Sequence="8"/>
+    <ROW File="lua51.dll" Component_="lua51.dll" FileName="lua51.dll" Attributes="0" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot\lua51.dll" SelfReg="false" Sequence="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="Build" BuildName="Build" BuildOrder="2" BuildType="1" PackageFolder="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release" PackageFileName="TUGBot Installer" Languages="en" InstallationType="4"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" PackageFolder="C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Release\TUGBot" Languages="en" InstallationType="4"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_DOTNET35_CLIENTPROFILE_SEARCH" Signature_="AI_DotNet35ClientProfileSearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET35_SEARCH" Signature_="AI_DotNet35SearchSgn" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="banner_image.jpg" SourcePath="&lt;AI_THEMES&gt;classic\resources\banner-image.jpg"/>
+    <ROW Name="default_banner.bmp" SourcePath="&lt;AI_THEMES&gt;classic\resources\default-banner.bmp"/>
+    <ROW Name="default_dialog.bmp" SourcePath="&lt;AI_THEMES&gt;classic\resources\default-dialog.bmp"/>
+    <ROW Name="dialog_image.jpg" SourcePath="&lt;AI_THEMES&gt;classic\resources\dialog-image.jpg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TOS" Control="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Control_Next="BannerBitmap" TextLocId="-"/>
+    <ROW Dialog_="TOS" Control="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" Attributes="1048577" Text="[BannerBitmap]" Control_Next="BannerLine"/>
+    <ROW Dialog_="TOS" Control="BannerLine" Type="Line" X="0" Y="44" Width="372" Height="0" Attributes="1" Control_Next="BottomLine"/>
+    <ROW Dialog_="TOS" Control="BottomLine" Type="Line" X="5" Y="234" Width="368" Height="0" Attributes="1" Control_Next="Description"/>
+    <ROW Dialog_="TOS" Control="Cancel" Type="PushButton" X="304" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Control_Next="Back" TextLocId="-"/>
+    <ROW Dialog_="TOS" Control="Description" Type="Text" X="25" Y="23" Width="280" Height="15" Attributes="196611" Text="Please agree to our Terms Of Use before installing TUGBot on your system." Control_Next="Logo"/>
+    <ROW Dialog_="TOS" Control="Logo" Type="Text" X="4" Y="228" Width="70" Height="12" Attributes="1" Text="Advanced Installer" Control_Next="Title"/>
+    <ROW Dialog_="TOS" Control="Next" Type="PushButton" X="236" Y="243" Width="56" Height="17" Attributes="1" Text="[ButtonText_Next]" Control_Next="Cancel" TextLocId="-"/>
+    <ROW Dialog_="TOS" Control="Title" Type="Text" X="15" Y="6" Width="200" Height="15" Attributes="196611" Text="Terms Of Use" TextStyle="[DlgTitleFont]" Control_Next="TOSEdit_1"/>
+    <ROW Dialog_="TOS" Control="TemplateDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0"/>
+    <ROW Dialog_="TOS" Control="TOSRadioButtonGroup_1" Type="RadioButtonGroup" X="5" Y="197" Width="108" Height="26" Attributes="3" Property="TOSRADIOBUTTONGROUP_1_PROP" Control_Next="Next"/>
+    <ROW Dialog_="TOS" Control="TOSEdit_1" Type="Edit" X="5" Y="51" Width="360" Height="146" Attributes="65543" Property="TOSEDIT_1_PROP" Text="{260}" Control_Next="TOSRadioButtonGroup_1" Help="|" ExtAttributes="1"/>
+    <ROW Dialog_="SpawnDialog" Control="Icon" Type="Icon" X="15" Y="15" Width="24" Height="24" Attributes="5242881" Text="[InfoIcon]" Control_Next="Text"/>
+    <ROW Dialog_="SpawnDialog" Control="No" Type="PushButton" X="132" Y="57" Width="56" Height="17" Attributes="3" Text="[ButtonText_No]" Control_Next="Yes" TextLocId="-"/>
+    <ROW Dialog_="SpawnDialog" Control="Text" Type="Text" X="48" Y="15" Width="194" Height="30" Attributes="3" Text="New Spawn(Wait) Dialog" Control_Next="No"/>
+    <ROW Dialog_="SpawnDialog" Control="Yes" Type="PushButton" X="72" Y="57" Width="56" Height="17" Attributes="3" Text="[ButtonText_Yes]" Control_Next="Icon" TextLocId="-"/>
+    <ATTRIBUTE name="FixedSizeBitmaps" value="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="9"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="3"/>
+    <ROW Dialog_="TOS" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="1"/>
+    <ROW Dialog_="TOS" Control_="TemplateDlgDialogInitializer" Event="SelectionBrowse" Argument="SpawnDialog" Condition="1" Ordering="1"/>
+    <ROW Dialog_="SpawnDialog" Control_="No" Event="EndDialog" Argument="Return" Condition="1" Ordering="1"/>
+    <ROW Dialog_="SpawnDialog" Control_="Yes" Event="EndDialog" Argument="Return" Condition="1" Ordering="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR"/>
+    <ROW Directory_="Waypoints_DIR" Component_="Waypoints"/>
+    <ROW Directory_="Teams_DIR" Component_="Teams"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="[#TUGBot.exe]"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SpawnDialog" HCentering="50" VCentering="50" Width="260" Height="85" Attributes="3" Title="[ProductName] [Setup]" Control_First="Yes" Control_Default="Yes" Control_Cancel="No"/>
+    <ROW Dialog="TOS" HCentering="50" VCentering="50" Width="370" Height="270" Attributes="3" Title="[ProductName] [Setup]" Control_First="TOSRadioButtonGroup_1" Control_Default="Next" Control_Cancel="Cancel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="Not Installed" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="201"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(AI_DOTNET35_SEARCH = &quot;#1&quot;) OR (AI_DOTNET35_CLIENTPROFILE_SEARCH = &quot;#1&quot;)" Description="[ProductName] cannot be installed on systems with .NET Framework version smaller than [AI_MINDOTNETVERSION]" DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="PhysicalMemory &gt;= AI_MINRAM" Description="[ProductName] cannot be installed on systems with less physical memory than [AI_MINRAM] MB." DescriptionLocId="AI.LaunchCondition.RAM" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="Privileged" Description="[ProductName] requires administrative privileges to install." DescriptionLocId="AI.LaunchCondition.Privileged" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="Version9X OR (VersionNT AND (NOT VersionNT64)) OR (VersionNT64 &gt;= 601)" Description="[ProductName] cannot be installed on systems earlier than [WindowsTypeNT64]" DescriptionLocId="AI.LaunchCondition.NoSpecificNT64" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionMsi &gt;= WIMinVersion" Description="[ProductName] cannot be installed on systems with Windows Installer version smaller than [WIMinVersion]" DescriptionLocId="AI.LaunchCondition.WI" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsFamily9X]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="TOSRADIOBUTTONGROUP_1_PROP" Order="1" Value="Agree" X="5" Y="12" Width="75" Height="11" Text="I Agree" Help="|"/>
+    <ROW Property="TOSRADIOBUTTONGROUP_1_PROP" Order="2" Value="RadioButton_2" X="54" Y="12" Width="50" Height="11" Text="I Disagree"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_DotNet35ClientProfileSearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\DotNetClient\v3.5" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet35SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" Name="Install" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="LowLevelHooksTimeout" Root="1" Key="Control Panel\Desktop" Name="LowLevelHooksTimeout" Value="#1500" Component_="LowLevelHooksTimeout"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="TUGBot.exe" Directory_="SHORTCUTDIR" Name="TUGBot.exe" Component_="TUGBot.exe" Target="[#TUGBot.exe]" Description="TUGBot.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="TUGBot.exe_1" Directory_="DesktopFolder" Name="TUGBot.exe" Component_="TUGBot.exe" Target="[#TUGBot.exe]" Description="TUGBot.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SynchronizedFolderComponent">
+    <ROW Directory_="APPDIR" SourcePath="C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\Release\TUGBot" Feature="MainFeature" ExcludePattern="*~|#*#|%*%|._|CVS|.cvsignore|SCCS|vssver.scc|mssccprj.scc|vssver2.scc|.svn|.DS_Store" ExcludeFlags="6"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,10 @@
+Label "Start"
+Ground 32101 32202 8
+Ground 32080 32192 8
+Ground 32080 32192 8
+Ground 32080 32192 8
+If Health < 40 "Start" else "Heal"
+Label "Heal"
+If Mana > 70 "ContHea" else "Start"
+Label "ContHea"
+

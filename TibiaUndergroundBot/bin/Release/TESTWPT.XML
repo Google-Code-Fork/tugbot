@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a saved Waypoint script for TUGBot.
+If you wish to edit this file, please load it in TUGBot.-->
+<Waypoints>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="-1" PosZ="0" />
+    <Node OffsetX="-1" OffsetY="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="-1" PosY="0" PosZ="0" />
+    <Node OffsetX="1" OffsetY="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="1" PosZ="0" />
+    <Node OffsetX="-1" OffsetY="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="-1" PosY="1" PosZ="0" />
+    <Node OffsetX="1" OffsetY="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="0" PosY="0" PosZ="0" />
+  </Waypoint>
+  <Waypoint Type="4">
+    <Properties PosX="0" PosY="0" PosZ="-1" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="0" PosY="-1" PosZ="1" />
+  </Waypoint>
+  <Waypoint Type="3">
+    <Properties PosX="0" PosY="1" PosZ="-1" />
+  </Waypoint>
+  <Waypoint Type="3">
+    <Properties PosX="0" PosY="1" PosZ="1" />
+  </Waypoint>
+  <Waypoint Type="1">
+    <Properties PosX="0" PosY="-1" PosZ="1" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="-1" PosZ="0" />
+    <Node OffsetX="-1" OffsetY="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="-1" PosZ="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="-1" PosZ="0" />
+  </Waypoint>
+  <Waypoint Type="0">
+    <Properties PosX="1" PosY="-1" PosZ="0" />
+  </Waypoint>
+</Waypoints>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--Here you can add shortcuts so you dont have to remember item ids for commands.
+Separate all shortcut variations with a comma. Each shortcut may be one word, use NO spaces.
+To use the shortcuts in commands, put {shortcut}. It is not case sensative. -->
+<Shortcuts>
+	<Item ID="3031" Shortcuts="Gold" />
+
+	<Item ID="266" Shortcuts="HP,NormalHealth,NHP" />
+	<Item ID="236" Shortcuts="SHP,StrongHealth" />
+	<Item ID="239" Shortcuts="GHP,GreatHealth" />
+	<Item ID="7643" Shortcuts="UHP,UltimateHealth" />
+	<Item ID="7642" Shortcuts="SP,SpiritPotion,Spirit" />
+
+	<Item ID="268" Shortcuts="MP,NormalMana,NMP" />
+	<Item ID="237" Shortcuts="SMP,StrongMana" />
+	<Item ID="238" Shortcuts="GMP,GreatMana" />
+
+	<Item ID="3003" Shortcuts="Rope" />
+	<Item ID="646" Shortcuts="Elvenhair,ElvenhairRope,ERope" />
+	<Item ID="3457" Shortcuts="Shovel" />
+	<Item ID="5710" Shortcuts="LightShovel,LShovel" />
+	<Item ID="3483" Shortcuts="Rod,FishingRod" />
+
+	<Item ID="3153" Shortcuts="Antidote" />
+	<Item ID="3161" Shortcuts="Avalanche" />
+	<Item ID="3178" Shortcuts="Chameleon" />
+	<Item ID="3177" Shortcuts="ConvinceCreature" />
+	<Item ID="3148" Shortcuts="DestroyField,DF" />
+	<Item ID="3164" Shortcuts="EnergyField,EF" />
+	<Item ID="3166" Shortcuts="EnergyWall" />
+	<Item ID="3200" Shortcuts="Explosion,Explo" />
+	<Item ID="3192" Shortcuts="FireBomb,FB" />
+	<Item ID="3188" Shortcuts="FireField,FF" />
+	<Item ID="3190" Shortcuts="FireWall" />
+	<Item ID="3191" Shortcuts="GreatFireball,GFB" />
+	<Item ID="3198" Shortcuts="HeavyMagicMissile,HMM" />
+	<Item ID="3158" Shortcuts="Icicle" />
+	<Item ID="3152" Shortcuts="IntenseHealing,IH" />
+	<Item ID="3174" Shortcuts="LightMagicMissile,LMM" />
+	<Item ID="3180" Shortcuts="MagicWall,MWall" />
+	<Item ID="3165" Shortcuts="Paralyze,Para" />
+	<Item ID="3173" Shortcuts="PoisonBomb,PB" />
+	<Item ID="3172" Shortcuts="Poisonfield,PS" />
+	<Item ID="3176" Shortcuts="PoisonWall" />
+	<Item ID="3195" Shortcuts="SoulFire,SF" />
+	<Item ID="3179" Shortcuts="Stalagmite" />
+	<Item ID="3155" Shortcuts="SuddenDeath,SD" />
+	<Item ID="3202" Shortcuts="Thunderstorm" />
+	<Item ID="3160" Shortcuts="UltimateHealing,UH" />
+	
+	
+	<Spell Words="Adori Gran Mort" Shortcuts="SDSpell,SuddenDeathSpell" />
+	<Spell Words="Adura Vita" Shortcuts="UHSpell,UltimateHealingSpell" />
+	<Spell Words="Adori Vis" Shortcuts="HMMSpell,HeavyMagicMissileSpell" />
+	<Spell Words="Adana Ani" Shortcuts="ParaSpell,ParalyzeSpell" />
+	<Spell Words="Adori Frigo" Shortcuts="IceicleSpell" />
+	
+	<Spell Words="Utani Gran Hur" Shortcuts="GHur,GHaste" />
+	<Spell Words="Utani Hur" Shortcuts="Hur,Haste" />
+	<Spell Words="Exani Hur Up" Shortcuts="LevitateUp,LUp" />
+	<Spell Words="Exani Hur Down" Shortcuts="LevitateDown,LDown" />
+</Shortcuts>
+
+<!--  TODO: Animatedead, Desintegrate, Energybomb, Fireball, Stoneshower -->
+<!--  TODO: Add all rune spells -->
+<!--  TODO: More spells even though the rest are really easy to remember lol -->

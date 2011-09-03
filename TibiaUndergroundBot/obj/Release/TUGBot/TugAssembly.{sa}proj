@@ -1,0 +1,220 @@
+<SmartAssemblyProject ProjectID="{390d489c-6e24-4307-876b-4197898f48e9}" Version="2.0">
+    <MainAssemblyFileName>..\..\..\bin\Release\TUGBot.exe</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <ApplicationName />
+        <Destination DestinationFileName="..\..\..\..\Release\TUGBot\TUGBot.exe" />
+        <Assemblies>
+            <Assembly AssemblyName="MagicLibrary, Culture=neutral, PublicKeyToken=3a6eb82f876a49bc">
+                <Merging Merge="0">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="2" />
+                    <ResourcesCompression Compress="1" />
+                    <ResourcesPruning />
+                </Merging>
+                <Embedding Compress="1" Embed="1" GAC="1" />
+            </Assembly>
+            <Assembly AssemblyName="TUGBot, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression Compress="1" />
+                    <Pruning Prune="1">
+                        <Exclusion>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>ButtonStruct</Name>
+                                <ItemType>ValueType</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>ItemDisplay</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>TrainingPartner</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>AdvancedTarget</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>Enums</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                        </Exclusion>
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>ButtonStruct</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>ItemDisplay</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>TrainingPartner</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>AdvancedTarget</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>FollowMode</Name>
+                                <Container>Enums</Container>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>AttackMode</Name>
+                                <Container>Enums</Container>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>AttackPriority</Name>
+                                <Container>Enums</Container>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>MagicAttackType</Name>
+                                <Container>Enums</Container>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="TypeDef">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>HotkeyPanel</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>HotkeyPanel</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="TypeDef">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>WaterMarkTextBox</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>TUGBot</Assembly>
+                                <Module>TUGBot.exe</Module>
+                                <Name>WaterMarkTextBox</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>TUGBot</Namespace>
+                            </Token>
+                        </Exclusion>
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="3" />
+                    <ResourcesPruning />
+                    <MemberRefsProxy />
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="LuaInterface, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                </Merging>
+                <Embedding Compress="1" Embed="1" />
+            </Assembly>
+            <Assembly AssemblyName="lua51, Culture=neutral, PublicKeyToken=1e1fb15b02227b8a">
+                <Merging Merge="0">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                </Merging>
+                <Embedding Compress="1" Embed="1" GAC="1" />
+            </Assembly>
+            <Assembly AssemblyName="ScintillaNet, Culture=neutral, PublicKeyToken=948d6c9751444115">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <ResourcesCompression Compress="1" />
+                    <ResourcesPruning />
+                    <MemberRefsProxy />
+                </Merging>
+                <Embedding Compress="1" Embed="0" GAC="1" />
+            </Assembly>
+            <Assembly AssemblyName="Interop.SpeechLib, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy />
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Options>
+            <Obfuscation FieldsNameMangling="2" NameMangling="3" />
+            <ExceptionReporting ReportExceptions="0" />
+            <StrongNameSigning KeyFileName="..\StrngNmKy.snk" Sign="1" />
+            <OtherProtections AddIncorrectMetadata="1" SuppressIldasm="1" />
+            <StringsEncoding Encode="0" />
+            <OtherOptimizations ManageMemory="1" SealClasses="1" />
+            <Debugging CreatePDB="0" />
+            <Troubleshooting SelfDiagnostic="0" />
+        </Options>
+    </Configuration>
+</SmartAssemblyProject>

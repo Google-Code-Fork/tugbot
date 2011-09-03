@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a saved On-Screen button configuration for TUGBot.
+If you wish to edit this file, please load it in TUGBot.-->
+<Buttons>
+  <Button Name="AddGround" Text="Add Ground" CommandL="caveadd ground" CommandR="caveadd node" ItemUnderID="3552" ItemOverID="0" OverX="0" Overy="0" XPos="7" YPos="0" Color="Brown" CanDrag="1" />
+  <Button Name="AddHole" Text="Add Hole" CommandL="caveadd hole" CommandR="caveadd rope" ItemUnderID="3003" XPos="5" YPos="61" Color="Brown" CanDrag="1" />
+  <Button Name="AddStair" Text="     Add Stairs" CommandL="caveadd upstairs" CommandR="caveadd downstairs" ItemUnderID="5258" XPos="5" YPos="145" Color="Orange" CanDrag="1" />
+</Buttons>

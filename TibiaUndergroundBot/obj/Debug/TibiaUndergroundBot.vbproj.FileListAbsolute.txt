@@ -1,0 +1,51 @@
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\bin\Debug\TibiaUndergroundBot.exe
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\bin\Debug\TibiaUndergroundBot.pdb
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\bin\Debug\TibiaUndergroundBot.xml
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.Main.resources
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.Resources.resources
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.vbproj.GenerateResource.Cache
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.exe
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.xml
+C:\Documents and Settings\DarkstaR\Local Settings\Application Data\Temporary Projects\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.pdb
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.exe
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.pdb
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.xml
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.Client_Chooser.resources
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.Main.resources
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.Resources.resources
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.vbproj.GenerateResource.Cache
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.exe
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.xml
+C:\Documents and Settings\DarkstaR\My Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.pdb
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.exe
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.xml
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.pdb
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Alarms.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.CaveBotAttacker.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.CavebotLooter.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.CavebotWalker.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.HeadsUpDisplay.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.HotkeysForm.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Icons.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Magic.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Profile.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Scripter.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Support.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Tools.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.War.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.CavebotCondition.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Load.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Main.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Resources.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Registration.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.TrialForm.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TibiaUndergroundBot.vbproj.GenerateResource.Cache
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.exe
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.pdb
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\TUGBot.xml
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\bin\Debug\ScintillaNet.dll
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Navigation.resources
+C:\Users\DarkstaR\Documents\Visual Studio 2008\Projects\TibiaUndergroundBot\TibiaUndergroundBot\obj\Debug\TUGBot.Updates.resources

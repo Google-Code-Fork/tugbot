@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TUGBot
+</name>
+</assembly>
+<members>
+<member name="M:TUGBot.AStarPathFinder.PriorityQueueB`1.Pop">
+	<summary>
+ Get the smallest object and remove it.
+ </summary>
+	<returns>The smallest object</returns>
+</member><member name="M:TUGBot.AStarPathFinder.PriorityQueueB`1.Update(System.Int32)">
+	<summary>
+ Notify the PQ that the object at position i has changed
+ and the PQ needs to restore order.
+ Since you dont have access to any indexes (except by using the
+ explicit IList.this) you should not call this function without knowing exactly
+ what you do.
+ </summary>
+	<param name="i">The index of the changed object.</param>
+</member><member name="M:TUGBot.AStarPathFinder.PriorityQueueB`1.Peek">
+	<summary>
+ Get the smallest object without removing it.
+ </summary>
+	<returns>The smallest object</returns>
+</member><member name="M:TUGBot.Pipes.#ctor(System.String)">
+	<summary>
+ Creates a Pipe to interact with an injected DLL or another program.
+ </summary>
+</member><member name="P:TUGBot.Pipes.isConnected">
+	<summary>
+ Returns the status of the pipe connection.
+ </summary>
+</member><member name="M:TUGBot.Pipes.Send(System.Byte[])">
+	<summary>
+ Sends packet to the destination.
+ </summary>
+</member><member name="P:TUGBot.PacketBuilder.Data">
+	<summary>
+ Get/Set the unencrypted bytes associated with this packetbuilder object.
+ </summary>
+</member><member name="P:TUGBot.PacketBuilder.Type">
+	<summary>
+ Get/Set the type of the packet (specified in the third byte of the data).
+ </summary>
+</member><member name="P:TUGBot.PacketBuilder.Index">
+	<summary>
+ Get/Set the current index in this packet. Set is the same as Seek(int).
+ </summary>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.Hide">
+	<summary>Hides the window and activates another window.</summary>
+	<remarks>See SW_HIDE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowNormal">
+	<summary>Activates and displays a window. If the window is minimized
+ or maximized, the system restores it to its original size and
+ position. An application should specify this flag when displaying
+ the window for the first time.</summary>
+	<remarks>See SW_SHOWNORMAL</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowMinimized">
+	<summary>Activates the window and displays it as a minimized window.</summary>
+	<remarks>See SW_SHOWMINIMIZED</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowMaximized">
+	<summary>Activates the window and displays it as a maximized window.</summary>
+	<remarks>See SW_SHOWMAXIMIZED</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.Maximize">
+	<summary>Maximizes the specified window.</summary>
+	<remarks>See SW_MAXIMIZE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowNormalNoActivate">
+	<summary>Displays a window in its most recent size and position.
+ This value is similar to "ShowNormal", except the window is not
+ actived.</summary>
+	<remarks>See SW_SHOWNOACTIVATE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.Show">
+	<summary>Activates the window and displays it in its current size
+ and position.</summary>
+	<remarks>See SW_SHOW</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.Minimize">
+	<summary>Minimizes the specified window and activates the next
+ top-level window in the Z order.</summary>
+	<remarks>See SW_MINIMIZE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowMinNoActivate">
+	<summary>Displays the window as a minimized window. This value is
+   similar to "ShowMinimized", except the window is not activated.</summary>
+	<remarks>See SW_SHOWMINNOACTIVE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowNoActivate">
+	<summary>Displays the window in its current size and position. This
+ value is similar to "Show", except the window is not activated.</summary>
+	<remarks>See SW_SHOWNA</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.Restore">
+	<summary>Activates and displays the window. If the window is
+ minimized or maximized, the system restores it to its original size
+ and position. An application should specify this flag when restoring
+ a minimized window.</summary>
+	<remarks>See SW_RESTORE</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ShowDefault">
+	<summary>Sets the show state based on the SW_ value specified in the
+ STARTUPINFO structure passed to the CreateProcess function by the
+ program that started the application.</summary>
+	<remarks>See SW_SHOWDEFAULT</remarks>
+</member><member name="F:TUGBot.Enums.WindowShowStyle.ForceMinimized">
+	<summary>Windows 2000/XP: Minimizes a window, even if the thread
+ that owns the window is hung. This flag should only be used when
+ minimizing windows from a different thread.</summary>
+	<remarks>See SW_FORCEMINIMIZE</remarks>
+</member><member name="M:TUGBot.ItemLocation.FromHotkey">
+	<summary>
+ Return a blank item location for packets (FF FF 00 00 00)
+ </summary>
+	<returns></returns>
+</member><member name="T:TUGBot.MapMerger">
+	<summary>
+ Contains the method to merge tibia maps.
+ </summary>
+</member><member name="P:TUGBot.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TUGBot.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TUGBot.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

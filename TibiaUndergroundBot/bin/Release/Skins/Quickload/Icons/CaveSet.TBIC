@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a saved On-Screen button configuration for TUGBot.
+If you wish to edit this file, please load it in TUGBot.-->
+<Buttons>
+  <Button Name="ToggleAttack" Text="Attacker: &amp;attacker" CommandL="toggle attacker" CommandR="none" ItemUnderID="3366" XPos="106" YPos="5" Color="Chocolate" CanDrag="1">
+    <Overlay ID="3288" X="0" Y="0" />
+  </Button>
+  <Button Name="ToggleWalk" Text="Walker: &amp;walker" CommandL="toggle walker" CommandR="none" ItemUnderID="3079" XPos="192" YPos="5" Color="Chocolate" CanDrag="1" />
+  <Button Name="ToggleLoot" Text="Looter: &amp;looter" CommandL="toggle looter" CommandR="none" ItemUnderID="3989" XPos="22" YPos="5" Color="Chocolate" CanDrag="1" />
+</Buttons>

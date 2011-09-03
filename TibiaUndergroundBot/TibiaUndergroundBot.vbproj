@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1D82572-B2E9-41D8-BD66-F0F0D62BA627}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TUGBot.My.MyApplication</StartupObject>
+    <RootNamespace>TUGBot</RootNamespace>
+    <AssemblyName>TUGBot</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TUGBot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TUGBot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x86</PlatformTarget>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SpeechLib, Version=5.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Interop.SpeechLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LuaInterface, Version=2.0.0.27979, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classess\Client\CriticalSection.vb" />
+    <Compile Include="Classess\Util\TibiaPathFinder.vb" />
+    <Compile Include="Custom Controls\CustomTextBoxPaint.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\HotkeyPanel.Designer.vb">
+      <DependentUpon>HotkeyPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\HotkeyPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\MapMerger.vb" />
+    <Compile Include="Custom Controls\MapViewer.Designer.vb">
+      <DependentUpon>MapViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\MapViewer.vb">
+    </Compile>
+    <Compile Include="Custom Controls\MiniMapViewer.Designer.vb">
+      <DependentUpon>MiniMapViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\MiniMapViewer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientConnector.Designer.vb">
+      <DependentUpon>ClientConnector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClientConnector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Trainer.Designer.vb">
+      <DependentUpon>Trainer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Trainer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotItemMove.Designer.vb">
+      <DependentUpon>CavebotItemMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotItemMove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotTradeSession.Designer.vb">
+      <DependentUpon>CavebotTradeSession.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotTradeSession.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\Updates.Designer.vb">
+      <DependentUpon>Updates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\Updates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\BotSettings.vb" />
+    <Compile Include="Modules\Commands\AdvancedTarget.vb" />
+    <Compile Include="Modules\Commands\TeamMates.vb" />
+    <Compile Include="Modules\Commands\ButtonStruct.vb" />
+    <Compile Include="Classess\Client\Addresses\AddressArray.vb" />
+    <Compile Include="Classess\Client\Cached\CMap.vb" />
+    <Compile Include="Classess\Client\ClientVariables.vb" />
+    <Compile Include="Classess\Client\PlayerProfile.vb">
+    </Compile>
+    <Compile Include="Classess\Client\Work\ClientDisplay.vb" />
+    <Compile Include="Classess\Client\Work\ClientEvasion.vb" />
+    <Compile Include="Classess\Client\Work\ClientEvents.vb" />
+    <Compile Include="Classess\Client\Work\NewClient.vb" />
+    <Compile Include="Classess\CodeCave.vb" />
+    <Compile Include="Classess\IniFile.vb" />
+    <Compile Include="Classess\Scripter\LuaScript.vb" />
+    <Compile Include="Classess\Util\AStarPathFinder.vb" />
+    <Compile Include="Forms\Controls\Alarms.Designer.vb">
+      <DependentUpon>Alarms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Alarms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\CaveBotAttacker.Designer.vb">
+      <DependentUpon>CaveBotAttacker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\CaveBotAttacker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\CavebotLooter.Designer.vb">
+      <DependentUpon>CavebotLooter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\CavebotLooter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\CavebotWalker.Designer.vb">
+      <DependentUpon>CavebotWalker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\CavebotWalker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\HeadsUpDisplay.Designer.vb">
+      <DependentUpon>HeadsUpDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\HeadsUpDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\HotkeysForm.Designer.vb">
+      <DependentUpon>HotkeysForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\HotkeysForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Icons.Designer.vb">
+      <DependentUpon>Icons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Icons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Magic.Designer.vb">
+      <DependentUpon>Magic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Magic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Navigation.Designer.vb">
+      <DependentUpon>Navigation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Navigation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Profile.Designer.vb">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Scripter.Designer.vb">
+      <DependentUpon>Scripter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Scripter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Support.Designer.vb">
+      <DependentUpon>Support.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Support.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\Tools.Designer.vb">
+      <DependentUpon>Tools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\Tools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\War.Designer.vb">
+      <DependentUpon>War.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\War.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotCondition.Designer.vb">
+      <DependentUpon>CavebotCondition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\CavebotCondition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Load.Designer.vb">
+      <DependentUpon>Load.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Load.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Command Variables\DisplayVars.vb" />
+    <Compile Include="Modules\Command Variables\ItemCount.vb" />
+    <Compile Include="Modules\Commands\CommandParser.vb" />
+    <Compile Include="Modules\Commands\CommandRunner.vb" />
+    <Compile Include="Modules\Commands\CommandSystem.vb" />
+    <Compile Include="Modules\Commands\HotkeyStruct.vb" />
+    <Compile Include="Modules\Commands\TrainingPartner.vb" />
+    <Compile Include="Modules\Core\Geometry.vb" />
+    <Compile Include="Modules\GlobalVariables.vb" />
+    <Compile Include="Modules\GUIInvokations.vb" />
+    <Compile Include="Modules\Loader.vb" />
+    <Compile Include="Modules\Skinner.vb" />
+    <Compile Include="Classess\CheckPing.vb" />
+    <Compile Include="Classess\Client\Addresses\Addresses.vb" />
+    <Compile Include="Classess\Client\Addresses\AdrBattle.vb" />
+    <Compile Include="Classess\Client\Addresses\AdrClient.vb" />
+    <Compile Include="Classess\Client\Addresses\AdrContainer.vb" />
+    <Compile Include="Classess\Client\Addresses\AdrLogin.vb" />
+    <Compile Include="Classess\Client\Addresses\AdrPlayer.vb" />
+    <Compile Include="Classess\Client\Cached\Container.vb" />
+    <Compile Include="Classess\Client\Client.vb" />
+    <Compile Include="Classess\Client\DatItem.vb" />
+    <Compile Include="Classess\Client\Hooks\TibiaHook.vb" />
+    <Compile Include="Classess\Client\Screen.vb" />
+    <Compile Include="Classess\CriticalSection.vb" />
+    <Compile Include="Classess\Client\Map.vb" />
+    <Compile Include="Classess\ItemLocation.vb" />
+    <Compile Include="Classess\Util\PacketBuilder.vb" />
+    <Compile Include="Classess\Util\Winsock.vb" />
+    <Compile Include="Classess\Util\Pipes.vb" />
+    <Compile Include="Classess\Client\Cached\BattleList.vb" />
+    <Compile Include="Classess\Client\Player\Self.vb" />
+    <Compile Include="Classess\Client\TimedThread.vb" />
+    <Compile Include="Classess\Website\Website.vb" />
+    <Compile Include="Forms\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AddressConstants.vb" />
+    <Compile Include="Modules\Constants.vb" />
+    <Compile Include="Modules\Core\Structures.vb" />
+    <Compile Include="Modules\Core\Utils.vb" />
+    <Compile Include="Modules\Core\WinApi.vb" />
+    <Compile Include="Modules\Enums.vb" />
+    <Compile Include="Modules\Command Variables\Shortcuts.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register\RegConstants.vb" />
+    <Compile Include="Register\Registration.Designer.vb">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register\Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register\RegistrationCrypto.vb" />
+    <Compile Include="Register\TrialForm.Designer.vb">
+      <DependentUpon>TrialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register\TrialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Custom Controls\HotkeyPanel.resx">
+      <DependentUpon>HotkeyPanel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\MiniMapViewer.resx">
+      <DependentUpon>MiniMapViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClientConnector.resx">
+      <DependentUpon>ClientConnector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Alarms.resx">
+      <DependentUpon>Alarms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\CaveBotAttacker.resx">
+      <DependentUpon>CaveBotAttacker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\CavebotLooter.resx">
+      <DependentUpon>CavebotLooter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\CavebotWalker.resx">
+      <DependentUpon>CavebotWalker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\HeadsUpDisplay.resx">
+      <DependentUpon>HeadsUpDisplay.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\HotkeysForm.resx">
+      <DependentUpon>HotkeysForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Icons.resx">
+      <DependentUpon>Icons.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Magic.resx">
+      <DependentUpon>Magic.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Navigation.resx">
+      <DependentUpon>Navigation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Profile.resx">
+      <DependentUpon>Profile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Scripter.resx">
+      <DependentUpon>Scripter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Support.resx">
+      <DependentUpon>Support.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Tools.resx">
+      <DependentUpon>Tools.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\Trainer.resx">
+      <DependentUpon>Trainer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\War.resx">
+      <DependentUpon>War.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\CavebotCondition.resx">
+      <DependentUpon>CavebotCondition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\CavebotItemMove.resx">
+      <DependentUpon>CavebotItemMove.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\CavebotTradeSession.resx">
+      <DependentUpon>CavebotTradeSession.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\Updates.resx">
+      <DependentUpon>Updates.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Load.resx">
+      <DependentUpon>Load.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register\Registration.resx">
+      <DependentUpon>Registration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register\TrialForm.resx">
+      <DependentUpon>TrialForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="FlamelessBanner.png" />
+    <Content Include="favicon.ico" />
+    <None Include="IconSets\Favorites\Safety Box v2.png" />
+    <None Include="IconSets\Favorites\Browser-64.png" />
+    <None Include="IconSets\Favorites\Earth Alert.ico" />
+    <None Include="IconSets\Favorites\Earth Alert.png" />
+    <None Include="IconSets\Favorites\Tools.png" />
+    <None Include="IconSets\Favorites\64.png" />
+    <None Include="IconSets\Favorites\War.png" />
+    <None Include="IconSets\Favorites\WIP_64.png" />
+    <None Include="IconSets\Favorites\Dashboard-64.png" />
+    <None Include="IconSets\Favorites\Inside-whosamungus-64.png" />
+    <None Include="IconSets\Favorites\safe-64.png" />
+    <None Include="IconSets\Favorites\Shield-and-swords-64.png" />
+    <None Include="IconSets\Favorites\hOTKEYS.png" />
+    <None Include="IconSets\Favorites\board-on-surface_64.png" />
+    <None Include="IconSets\Favorites\Registry-64.png" />
+    <None Include="IconSets\Favorites\Load.png" />
+    <None Include="IconSets\Favorites\Save.png" />
+    <None Include="IconSets\Favorites\Control panel-48.png" />
+    <None Include="IconSets\Favorites\Shield-48.png" />
+    <None Include="IconSets\Favorites\Gnome-Preferences-Desktop-Keyboard-Shortcuts-48.png" />
+    <None Include="IconSets\Favorites\Gnome-Applications-Utilities-48.png" />
+    <None Include="IconSets\PNG-48\Delete.png" />
+    <None Include="IconSets\Favorites\Bar-chart-64.png" />
+    <None Include="IconSets\ClientLoader.png" />
+    <None Include="IconSets\loader_icon.gif" />
+    <Content Include="TUGBot.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
