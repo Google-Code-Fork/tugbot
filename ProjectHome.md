@@ -1,0 +1,3 @@
+TUGBot is a free client modification for the MMORPG Tibia, written in VB.net and C++. In its prime days, it had thousands of active users and was loved by many people. Now, however, its lack of scalability has caught up to it and it has become too much to manage with no profit.
+
+This repository includes all of the source code for the bot. You will find some parts are quite messy and other parts are well coded, while some modules aren't even used. The project is a total mess. It contains a lot of files that were never used (images etc) so don't mind them. I hope somebody finds this code useful in the future.
